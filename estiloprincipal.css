@@ -1,0 +1,245 @@
+body
+{
+  background-image: url(Imagenes/Fondos/fondo3.jpg);
+  margin: 20px auto;
+  color: rgb(0, 0, 0);/*Cambio el color de la letra*/
+  width: 95%;
+}
+header>h1
+{
+  font-family: verdana;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: rgb(154,205, 205) 6px 6px 10px; /*sombra del titulo de la pagina*/ /* los tres números indican distancia horizontal, vertical y difuminado*/;
+}
+.logo-left
+{
+  float: left;
+  padding: 20px 20px 0px 20px; /*mueve el logo*/
+  width: 120px;
+  height: 120px;
+}
+.logo-right
+{
+  float: right;
+  padding: 20px 20px 0px 20px;/*mueve el logo*/
+  width: 120px;
+  height: 120px;
+}
+header
+{
+  width: 100%;
+  overflow: hidden;
+  background-color:rgb(55, 98, 166); /*cambia el fondo de la cabecera y el slider*/
+  margin-bottom: 0px;
+  padding: 0px;
+  border-radius: 25px 25px 0px 0px;
+  border-style: none;
+}
+nav
+{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+nav ul
+{
+  list-style: none;
+}
+nav li
+{
+  display: inline-block;
+  margin-right: 2px;
+  margin-top: 0.2em;
+}
+.boton
+{
+  background-color: rgb(55, 98, 166); /*cambia el color de los botones*/
+  color: rgb(0, 0, 0); /*cambia el color de la letra de los botones*/
+  display: inline-block;
+  font-size: 1em;
+  margin: 5px;
+  padding: 10px 0px;
+  text-align: center;
+  width: 180px;
+  text-decoration: none;
+  box-shadow: rgb(154, 225, 255) 6px 6px 8px; /*cambia el color del sombreado de los botones*/
+  border-radius: 30px;
+}
+.boton:hover{
+  background-color: rgb(164, 209, 231); /*cambiar el color del boton al pasar el puntero*/
+  color: rgb(0, 3, 255); /*cambia el color de la letra al pasar el puntero*/
+  box-shadow: 0px 02px 5px rgb(55, 107, 161); /*cambia el color del sombreado al pasar el puntero*/
+  padding-top: 7px;
+}
+.botonredes
+{
+  display: inline-flex;
+  width: 15px;
+  height: 15px;
+  padding: 10px;
+  background-color:rgb(9, 164, 6); /*cambia el color de los botones de las redes sociales*/
+  border-radius: 100%;
+}
+.botonredes img
+{
+  width: 15px;
+  height: 15px;
+}
+.botonredes:hover
+{
+  background-color:rgb(0,0,0);
+  border-radius: 100%;
+  box-shadow: 0px 0px 5px rgb(148, 128, 24);
+}
+.contenedor
+{
+  padding: 10px 20px 10px 20px;
+  background: rgba(255, 255, 255, 0.20);
+  border-radius: 2em;
+  box-shadow: 0px 5px 3px rgba(0,0,0, .4);
+}
+section
+{
+ float: left;
+ width: 70%;
+ text-align:justify;
+ margin-top: 10px;
+}
+article
+{
+ margin-bottom: 5px;
+ padding: 10px;
+ border-radius: 10px;
+ border-style: solid;
+ border-width: 2px;
+ border-color: rgb(82, 2, 102);
+  background-color: rgba(255, 255, 255, 0.15);
+}
+aside{
+ float: right;
+ width: 30%;
+ text-align: justify;
+ margin-top: 0px;
+}
+blockquote
+{
+ margin-bottom: 5px;
+ padding: 10px;
+ border-radius: 10px;
+ border-style: solid;
+ border-width: 2px;
+ border-color: rgb(82, 2, 102);
+ background-color: rgba(255, 255, 255, 0.15);
+}
+.izq
+{
+ float: left;
+}
+.der
+{
+ float: right;
+ padding-right: 20px;
+}
+.enlace-footer
+{
+  font-size: 10px;
+  color: rgb(142, 730, 1924);
+  padding-right: 5px;
+  text-decoration: none;
+  font-family: verdana;
+}
+.enlace-footer:hover
+{
+  color: rgb(111, 1, 87);
+  text-shadow: 0px 0px 5px rgb(109, 16, 117);
+  text-decoration: underline;
+}
+
+footer>p
+{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 13px;
+  font-family: verdana;
+}
+footer
+{
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(12, 36, 76);
+  margin-bottom: 0px;
+  padding: 0px;
+  border-radius: 0px 0px 25px 25px;
+  border-style: none;
+}
+img.radius
+{
+  width:25%;
+  height: 35%;
+  float: right;
+  border-radius: 100%;
+  border-style: solid;
+  margin: 0px auto;
+  border: 2px solid rgb(135, 6, 138);
+  padding: 10px;
+  margin: 10px;
+}
+.enlace-aside
+{
+  font-size: 1.5em;
+  color: rgb(189, 163, 30);
+  padding-right: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Roboto',sans-serif;
+  font-weight: bold; /*Fuente en negritas*/
+}
+.enlace-aside:hover
+{
+  color: rgb(0, 0, 0);
+  text-shadow: 0px 0px 5px rgba(198, 165, 0, 0.51);
+  text-decoration: underline;
+  font-weight:bold;
+}
+
+form{
+  width:400px;
+  padding:30px;
+  border-radius:10px;
+  margin:auto;
+  background-color:#2a519b;
+}
+
+form label{
+  width:72px;
+  font-weight:bold;
+  display:inline-block;
+}
+
+form input[type="text"],
+form input[type="email"]{
+  width:180px;
+  padding:3px 10px;
+  border:1px solid #f6f6f6;
+  border-radius:3px;
+  background-color:#f6f6f6;
+  margin:8px 0;
+  display:inline-block;
+}
+
+form input[type="submit"]{
+  width:100%;
+  padding:8px 16px;
+  margin-top:32px;
+  border:1px solid #000;
+  border-radius:5px;
+  display:block;
+  color:#fff;
+  background-color:#000;
+} 
+
+
+
